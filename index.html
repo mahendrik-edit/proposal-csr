@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#F2F2F7">
+<title>Proposal CSR Pemeliharaan Bangunan Kelas · SMP Negeri 14 Malang</title>
+<meta name="description" content="Permohonan CSR kepada BRI Kota Malang Cabang Kawi: penggantian atap dan jalur air hujan untuk lima ruang kelas SMP Negeri 14 Malang.">
+<meta property="og:title" content="Proposal CSR · SMP Negeri 14 Malang">
+<meta property="og:description" content="Penggantian atap dan pembuatan jalur air hujan untuk lima ruang kelas.">
+<meta property="og:image" content="assets/k87-1.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#007AFF;--green:#34C759;--orange:#FF9500;--red:#FF3B30;--indigo:#5856D6;--teal:#30B0C7;
+--label:#1C1C1E;--label2:#6C6C70;--label3:#AEAEB2;--bg:#F2F2F7;--card:#fff;--sep:rgba(60,60,67,.14);
+--glass:rgba(255,255,255,.62);--glass-b:rgba(255,255,255,.75);--r:28px;
+--font:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Inter","Segoe UI",Roboto,sans-serif;
+--sh:0 1px 2px rgba(0,0,0,.04),0 8px 30px rgba(0,0,0,.06);--ease:cubic-bezier(.32,.72,0,1)}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth;color-scheme:light}
+body{font-family:var(--font);background:var(--bg);color:var(--label);line-height:1.5;-webkit-font-smoothing:antialiased;padding-bottom:calc(120px + env(safe-area-inset-bottom))}
+body::before{content:"";position:fixed;inset:-10% -10% auto -10%;height:70vh;z-index:-1;pointer-events:none;
+background:radial-gradient(40% 50% at 15% 20%,rgba(0,122,255,.22),transparent 70%),radial-gradient(35% 45% at 85% 10%,rgba(88,86,214,.16),transparent 70%),radial-gradient(40% 50% at 60% 60%,rgba(48,176,199,.14),transparent 70%)}
+img{display:block;max-width:100%}
+a{color:var(--blue);text-decoration:none}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+/* nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;padding-top:env(safe-area-inset-top);background:var(--glass);backdrop-filter:blur(28px) saturate(180%);-webkit-backdrop-filter:blur(28px) saturate(180%);border-bottom:.5px solid var(--sep);transform:translateY(-101%);transition:transform .4s var(--ease)}
+.nav.on{transform:none}
+.nav .wrap{height:48px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.nav b{font-size:15px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;border:0;cursor:pointer;font:600 15px var(--font);white-space:nowrap;padding:12px 20px;border-radius:999px;background:var(--blue);color:#fff;transition:transform .25s var(--ease),filter .2s;box-shadow:0 6px 18px rgba(0,122,255,.3)}
+.btn:active{transform:scale(.96)}.btn:hover{filter:brightness(1.06)}
+.btn.g{background:var(--glass-b);color:var(--blue);box-shadow:0 0 0 .5px var(--sep),var(--sh);backdrop-filter:blur(20px)}
+.btn.sm{padding:8px 14px;font-size:13px}
+svg.i{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;flex:none}
+/* hero */
+.hero{padding-top:calc(56px + env(safe-area-inset-top));padding-bottom:12px}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--label2)}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;background:var(--glass-b);box-shadow:0 0 0 .5px var(--sep);font-size:13px;font-weight:600;color:var(--blue);backdrop-filter:blur(20px);margin-top:18px}
+.pill i{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px rgba(52,199,89,.2)}
+h1{font-size:clamp(40px,8vw,76px);line-height:1.02;letter-spacing:-.035em;font-weight:800;margin:14px 0 12px}
+h1 span{background:linear-gradient(100deg,var(--blue),var(--indigo));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:clamp(18px,2.4vw,22px);color:var(--label2);max-width:640px;letter-spacing:-.01em}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.herophoto{margin-top:34px;border-radius:36px;overflow:hidden;position:relative;aspect-ratio:16/8;box-shadow:var(--sh)}
+.herophoto img{width:100%;height:100%;object-fit:cover;object-position:50% 12%}
+.herophoto .cap{position:absolute;left:14px;bottom:14px;right:14px;padding:12px 16px;border-radius:22px;background:var(--glass);backdrop-filter:blur(24px) saturate(180%);-webkit-backdrop-filter:blur(24px) saturate(180%);box-shadow:0 0 0 .5px rgba(255,255,255,.7) inset;font-size:14px;font-weight:500;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.cap small{color:var(--label2)}
+/* sections / cards */
+section{padding:56px 0 8px;scroll-margin-top:40px}
+h2{font-size:clamp(30px,5vw,44px);letter-spacing:-.03em;line-height:1.08;font-weight:800;margin:6px 0 10px}
+.sub{color:var(--label2);font-size:17px;max-width:660px;margin-bottom:24px}
+.card{background:var(--card);border-radius:var(--r);padding:24px;box-shadow:var(--sh)}
+.grid{display:grid;gap:14px}.g3{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.stat{padding:22px}.stat b{display:block;font-size:44px;font-weight:800;letter-spacing:-.03em;color:var(--blue);line-height:1}.stat span{color:var(--label2);font-size:14px}
+.ico{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;color:#fff;margin-bottom:14px}
+.card h3{font-size:19px;letter-spacing:-.015em;margin-bottom:6px}.card p{color:var(--label2);font-size:15.5px}
+.list{background:var(--card);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh)}
+.row{display:flex;gap:16px;justify-content:space-between;padding:14px 20px;border-bottom:.5px solid var(--sep);font-size:15.5px}
+.row:last-child{border:0}.row span:first-child{color:var(--label2);flex:none}.row span:last-child{text-align:right;font-weight:500}
+/* bars */
+.bar{display:grid;grid-template-columns:70px 1fr 90px;align-items:center;gap:12px;padding:8px 0;font-size:14.5px}
+.bar .t{height:12px;border-radius:99px;background:#EEF0F4;overflow:hidden}.bar .t i{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--blue),#5AC8FA);transition:width 1.2s var(--ease)}
+.bar em{font-style:normal;color:var(--label2);text-align:right}
+/* segmented */
+.seg{display:inline-flex;gap:2px;padding:3px;border-radius:14px;background:rgba(118,118,128,.14);max-width:100%;overflow-x:auto;scrollbar-width:none;position:relative}
+.seg::-webkit-scrollbar{display:none}
+.seg button{border:0;background:none;font:600 14px var(--font);color:var(--label);padding:8px 16px;border-radius:11px;cursor:pointer;white-space:nowrap;transition:background .25s,box-shadow .25s}
+.seg button[aria-selected=true]{background:#fff;box-shadow:0 3px 8px rgba(0,0,0,.12),0 .5px 1px rgba(0,0,0,.08)}
+/* room */
+.room{margin-top:20px;display:grid;gap:18px}
+.rhead{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start;justify-content:space-between}
+.rhead h3{font-size:30px;letter-spacing:-.025em}.rhead p{color:var(--label2);max-width:560px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{padding:8px 14px;border-radius:14px;background:#fff;box-shadow:var(--sh);font-size:13px;color:var(--label2)}.chip b{display:block;font-size:18px;color:var(--label);letter-spacing:-.01em}
+.chip.a b{color:var(--blue)}.chip.b b{color:var(--orange)}
+.photos{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 18px;margin:0 -20px;scrollbar-width:none}
+.photos::-webkit-scrollbar{display:none}
+.ph{flex:0 0 min(78vw,360px);scroll-snap-align:center;position:relative;border:0;padding:0;border-radius:30px;overflow:hidden;background:#ddd;cursor:zoom-in;aspect-ratio:9/16;box-shadow:var(--sh);transition:transform .4s var(--ease)}
+.ph:hover{transform:translateY(-4px)}
+.ph img{width:100%;height:100%;object-fit:cover}
+.ph span{position:absolute;left:10px;right:10px;bottom:10px;padding:10px 14px;border-radius:18px;background:var(--glass);backdrop-filter:blur(22px) saturate(180%);-webkit-backdrop-filter:blur(22px) saturate(180%);font:500 13px/1.35 var(--font);color:var(--label);text-align:left}
+.hint{font-size:13px;color:var(--label3);display:flex;gap:6px;align-items:center}
+/* lightbox */
+#lb{position:fixed;inset:0;z-index:100;display:none;background:rgba(242,242,247,.82);backdrop-filter:blur(30px) saturate(180%);-webkit-backdrop-filter:blur(30px) saturate(180%);align-items:center;justify-content:center;flex-direction:column;gap:14px;padding:20px}
+#lb.on{display:flex;animation:fade .3s}
+#lb img{max-height:78vh;max-width:92vw;border-radius:24px;box-shadow:0 20px 60px rgba(0,0,0,.25);object-fit:contain}
+#lb p{font-weight:500;text-align:center;max-width:560px}
+#lb .ctl{display:flex;gap:10px}
+.rb{width:44px;height:44px;border-radius:50%;border:0;background:var(--glass-b);box-shadow:0 0 0 .5px var(--sep),var(--sh);display:grid;place-items:center;cursor:pointer;color:var(--label)}
+@keyframes fade{from{opacity:0}}
+/* rab */
+.item{display:grid;grid-template-columns:1fr auto;gap:2px 16px;padding:14px 20px;border-bottom:.5px solid var(--sep)}
+.item:last-child{border:0}.item b{font-weight:600;font-size:15.5px}.item small{color:var(--label2);font-size:13px}.item .n{grid-row:span 2;align-self:center;font-weight:700;text-align:right}
+.total{background:linear-gradient(135deg,#0A84FF,#5856D6);color:#fff;border-radius:var(--r);padding:26px;box-shadow:0 14px 40px rgba(10,132,255,.3)}
+.total small{opacity:.8;font-weight:500;letter-spacing:.04em;text-transform:uppercase;font-size:12px}
+.total .big{font-size:clamp(32px,6vw,48px);font-weight:800;letter-spacing:-.03em;line-height:1.1;margin:4px 0 10px}
+.inp{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.2);border-radius:16px;padding:4px 14px;margin-top:10px}
+.inp span{font-weight:600}.inp input{flex:1;min-width:0;border:0;background:none;color:#fff;font:600 20px var(--font);padding:10px 0;outline:0}
+.inp input::placeholder{color:rgba(255,255,255,.6)}
+.chipbtn{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.chipbtn button{border:0;border-radius:99px;padding:7px 13px;background:rgba(255,255,255,.22);color:#fff;font:600 13px var(--font);cursor:pointer}
+.chipbtn button:hover{background:rgba(255,255,255,.35)}
+.share{height:14px;border-radius:99px;overflow:hidden;display:flex;margin:14px 0 8px;background:#EEF0F4}.share i{display:block;height:100%}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--label2)}.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
+details{background:var(--card);border-radius:22px;box-shadow:var(--sh);margin-bottom:10px;overflow:hidden}
+summary{list-style:none;cursor:pointer;padding:16px 20px;font-weight:600;display:flex;justify-content:space-between;gap:12px;align-items:center}
+summary::-webkit-details-marker{display:none}summary::after{content:"";width:8px;height:8px;border-right:2px solid var(--label3);border-bottom:2px solid var(--label3);transform:rotate(45deg);transition:transform .3s var(--ease);flex:none;margin-right:4px}
+details[open] summary::after{transform:rotate(-135deg)}details>div{padding:0 20px 18px;color:var(--label2);font-size:15px}
+/* timeline */
+.tl{position:relative;padding-left:34px;display:grid;gap:12px}
+.tl::before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:3px;border-radius:9px;background:#E3E5EA}
+.tl .fill{position:absolute;left:11px;top:14px;width:3px;border-radius:9px;background:linear-gradient(var(--blue),var(--indigo));height:0;transition:height .2s}
+.step{position:relative;background:#fff;border-radius:22px;padding:16px 20px;box-shadow:var(--sh)}
+.step::before{content:"";position:absolute;left:-30px;top:22px;width:15px;height:15px;border-radius:50%;background:#fff;border:3px solid #CFD3DA;transition:.4s}
+.step.on::before{border-color:var(--blue);background:var(--blue);box-shadow:0 0 0 5px rgba(0,122,255,.18)}
+.step small{color:var(--blue);font-weight:700;font-size:12px;letter-spacing:.05em;text-transform:uppercase}.step h4{font-size:17px}.step p{font-size:14.5px;color:var(--label2)}
+ul.tick{list-style:none;display:grid;gap:10px;padding:0}ul.tick li{display:flex;gap:10px;font-size:15.5px;color:var(--label2)}
+ul.tick li::before{content:"";flex:none;width:20px;height:20px;border-radius:50%;margin-top:2px;background:var(--green) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5.5 10.5l3 3 6-6.5' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+/* tab bar */
+.tabs{position:fixed;left:50%;bottom:calc(14px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:60;display:flex;gap:2px;padding:6px;border-radius:999px;background:var(--glass);backdrop-filter:blur(30px) saturate(190%);-webkit-backdrop-filter:blur(30px) saturate(190%);box-shadow:0 0 0 .5px rgba(255,255,255,.8) inset,0 0 0 .5px var(--sep),0 12px 40px rgba(0,0,0,.14);max-width:calc(100vw - 20px)}
+.tabs a{display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 14px;border-radius:999px;color:var(--label2);font-size:10.5px;font-weight:600;transition:background .3s var(--ease),color .3s;min-width:58px}
+.tabs a.on{background:rgba(0,122,255,.13);color:var(--blue)}
+.tabs svg{width:22px;height:22px}
+/* sheet */
+dialog{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100%;height:100%;overflow:hidden}
+dialog::backdrop{background:rgba(0,0,0,.28);backdrop-filter:blur(4px)}
+.sheet{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:min(680px,100%);max-height:92vh;overflow:auto;background:#fff;border-radius:34px 34px 0 0;padding:14px 28px calc(32px + env(safe-area-inset-bottom));animation:up .5s var(--ease)}
+@keyframes up{from{transform:translate(-50%,100%)}}
+.grab{width:40px;height:5px;border-radius:9px;background:#D1D1D6;margin:0 auto 18px}
+.sheet h3{font-size:24px;letter-spacing:-.02em;margin-bottom:4px}.sheet p{font-size:15px;margin:10px 0;color:#3A3A3C}
+.ph-h{background:#FFF3B0;border-radius:6px;padding:0 4px}
+footer{padding:56px 0 20px;color:var(--label2);font-size:14px;text-align:center}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s var(--ease),transform .8s var(--ease)}.reveal.in{opacity:1;transform:none}
+@media(max-width:560px){.card{padding:20px}.tabs a{padding:8px 10px;min-width:52px}.herophoto{aspect-ratio:4/3.4;border-radius:28px}.bar{grid-template-columns:62px 1fr 74px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+@media print{.tabs,.nav{display:none}.reveal{opacity:1;transform:none}body::before{display:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="home" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 9.5V20h5v-5h4v5h5V9.5"/></symbol>
+<symbol id="cam" viewBox="0 0 24 24"><path d="M4 8h3l2-2.5h6L17 8h3a1 1 0 011 1v9a1 1 0 01-1 1H4a1 1 0 01-1-1V9a1 1 0 011-1z"/><circle cx="12" cy="13" r="3.5"/></symbol>
+<symbol id="tool" viewBox="0 0 24 24"><path d="M14.5 6.5a4 4 0 005 5L20 12l-8 8-4-4 8-8zM4 20l3-3"/></symbol>
+<symbol id="rp" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3 10h18M7 15h4"/></symbol>
+<symbol id="cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></symbol>
+<symbol id="doc" viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7zM14 3v5h5M10 13h6M10 17h6"/></symbol>
+<symbol id="dl" viewBox="0 0 24 24"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 20h14"/></symbol>
+<symbol id="shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 7.8-8 9-4.6-1.2-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+<symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6L7 7M17 17l1.4 1.4M18.4 5.6L17 7M7 17l-1.4 1.4"/></symbol>
+<symbol id="drop" viewBox="0 0 24 24"><path d="M12 3s6 6.2 6 10.5a6 6 0 01-12 0C6 9.2 12 3 12 3z"/></symbol>
+<symbol id="heart" viewBox="0 0 24 24"><path d="M12 20s-8-4.6-8-10.5A4.5 4.5 0 0112 7a4.5 4.5 0 018 2.5C20 15.4 12 20 12 20z"/></symbol>
+<symbol id="x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="l" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+<symbol id="r" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+</defs></svg>
+
+<header class="nav" id="nav"><div class="wrap"><b>Proposal CSR · SMP Negeri 14 Malang</b><button class="btn sm" data-sheet>Baca surat</button></div></header>
+
+<main>
+<div class="wrap hero" id="beranda">
+  <div class="eyebrow">Pemerintah Kota Malang · Dinas Pendidikan dan Kebudayaan</div>
+  <div class="pill"><i></i>Proposal CSR 2026 · Diajukan kepada BRI Kota Malang Cabang Kawi</div>
+  <h1>Atap yang aman,<br><span>kelas yang layak.</span></h1>
+  <p class="lead">Permohonan bantuan pemeliharaan bangunan kelas SMP Negeri 14 Malang: penggantian atap dan pembuatan jalur air hujan untuk lima ruang kelas.</p>
+  <div class="cta">
+    <a class="btn" href="#kondisi"><svg class="i"><use href="#cam"/></svg>Lihat kondisi kelas</a>
+    <button class="btn g" data-sheet><svg class="i"><use href="#doc"/></svg>Surat permohonan</button>
+    <a class="btn g" href="Proposal_CSR_SMPN14_Malang_iOS_Light.docx" download><svg class="i"><use href="#dl"/></svg>Unduh versi Word</a>
+  </div>
+  <div class="herophoto reveal"><img src="assets/k87-1.jpg" alt="Plafon Kelas 8.7 yang jebol dan rangka atap kayu terlihat dari dalam ruangan" fetchpriority="high">
+    <div class="cap"><span><b>Kelas 8.7</b> · plafon jebol di beberapa titik</span><small>Foto pemeriksaan 13 Oktober 2026</small></div></div>
+</div>
+
+<div class="wrap" style="margin-top:22px">
+  <div class="grid g3 reveal">
+    <div class="card stat"><b data-n="815">0</b><span>peserta didik</span></div>
+    <div class="card stat"><b data-n="26">0</b><span>rombongan belajar</span></div>
+    <div class="card stat"><b data-n="5">0</b><span>ruang kelas diusulkan</span></div>
+    <div class="card stat"><b data-n="305.25" data-d="2">0</b><span>m² total luas denah</span></div>
+  </div>
+</div>
+
+<section class="wrap">
+  <div class="eyebrow">Sekolah kami</div><h2>Profil SMP Negeri 14 Malang</h2>
+  <p class="sub">Data bersumber dari Dapodik, Oktober 2026. Sekolah memiliki 31 ruang kelas, 44 pendidik dan tenaga kependidikan, termasuk 38 guru.</p>
+  <div class="grid g2">
+    <div class="card reveal"><h3>Peserta didik per tingkat</h3><p style="margin-bottom:10px">Kurikulum Merdeka, tatap muka.</p><div id="bars"></div></div>
+    <div class="list reveal">
+      <div class="row"><span>NPSN / NSS</span><span>20533786 / 201056103102</span></div>
+      <div class="row"><span>Status</span><span>SMP Negeri</span></div>
+      <div class="row"><span>Alamat</span><span>Jl. Teluk Bayur No. 2, RT 1 / RW 8, Pandanwangi, Blimbing, Kota Malang 65124</span></div>
+      <div class="row"><span>Telepon</span><span><a href="tel:0341474458">(0341) 474458</a></span></div>
+      <div class="row"><span>Website</span><span><a href="https://www.smpn14-mlg.sch.id" target="_blank" rel="noopener">smpn14-mlg.sch.id</a></span></div>
+      <div class="row"><span>SK pendirian</span><span>0594/0/1985 · 22 Nov 1985</span></div>
+      <div class="row"><span>Kepala sekolah</span><span>Rachmat Suliadi<br><small style="color:var(--label2);font-weight:400">NIP 197111131997021001</small></span></div>
+      <div class="row"><span>Rekening</span><span>Bank Jatim Cabang Malang a.n. SMP NEGERI 14 MALANG</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" id="kondisi">
+  <div class="eyebrow">Kondisi existing · 13 Oktober 2026</div><h2>Lima ruang, satu kebutuhan mendesak</h2>
+  <p class="sub">Plafon berlubang, rangka atap kayu terlihat, dan cahaya luar tembus celah atap. Pilih ruang untuk melihat foto dan datanya.</p>
+  <div class="seg" role="tablist" id="seg"></div>
+  <div class="room" id="room"></div>
+</section>
+
+<section class="wrap" id="program">
+  <div class="eyebrow">Program</div><h2>Tiga paket pekerjaan</h2>
+  <p class="sub">Pemeliharaan bangunan kelas yang konkret, mudah dipantau, dan selesai sebelum puncak musim hujan.</p>
+  <div class="grid g3">
+    <div class="card reveal"><div class="ico" style="background:var(--blue)"><svg class="i"><use href="#sun"/></svg></div><h3>Penggantian atap</h3><p>Atap seng galvalum dan rangka baja ringan untuk 5 ruang, total 305,25 m² luas denah.</p></div>
+    <div class="card reveal"><div class="ico" style="background:var(--teal)"><svg class="i"><use href="#drop"/></svg></div><h3>Jalur air · kelompok A</h3><p>Talang dan pipa tegak independen untuk Kelas 8.2, Ruang Pramuka, dan Kelas 8.3 (167,50 m²).</p></div>
+    <div class="card reveal"><div class="ico" style="background:var(--orange)"><svg class="i"><use href="#drop"/></svg></div><h3>Jalur air · kelompok B</h3><p>Talang dan pipa tegak independen untuk Kelas 8.7 dan Kelas 8.8 (137,75 m²).</p></div>
+  </div>
+  <h2 style="font-size:28px;margin-top:40px">Tujuan</h2>
+  <div class="grid g2">
+    <div class="card reveal"><div class="ico" style="background:var(--green)"><svg class="i"><use href="#shield"/></svg></div><h3>Menjamin keselamatan</h3><p>Atap dan plafon yang rusak diganti agar tidak ada risiko material jatuh ke area belajar.</p></div>
+    <div class="card reveal"><div class="ico" style="background:var(--indigo)"><svg class="i"><use href="#home"/></svg></div><h3>Menjaga kenyamanan belajar</h3><p>Ruang kelas bebas dari kebocoran dan rembesan air hujan saat musim hujan.</p></div>
+    <div class="card reveal"><div class="ico" style="background:var(--teal)"><svg class="i"><use href="#tool"/></svg></div><h3>Memperpanjang umur bangunan</h3><p>Jalur air independen melindungi dinding dan struktur dari kerusakan lanjutan.</p></div>
+    <div class="card reveal"><div class="ico" style="background:#FF2D55"><svg class="i"><use href="#heart"/></svg></div><h3>Kemitraan yang positif</h3><p>Kemitraan dengan BRI memperlihatkan kepedulian dunia usaha pada pendidikan di Kota Malang.</p></div>
+  </div>
+  <h2 style="font-size:28px;margin:40px 0 14px">Landasan hukum</h2>
+  <details><summary>5 dasar hukum dan kebijakan</summary><div><ol style="padding-left:20px;display:grid;gap:6px">
+   <li>UU Nomor 20 Tahun 2003 tentang Sistem Pendidikan Nasional.</li><li>UU Nomor 40 Tahun 2007 tentang Perseroan Terbatas, khususnya Tanggung Jawab Sosial dan Lingkungan.</li><li>PP Nomor 47 Tahun 2012 tentang Tanggung Jawab Sosial dan Lingkungan Perseroan Terbatas.</li><li>Permendiknas Nomor 24 Tahun 2007 tentang Standar Sarana dan Prasarana SD/MI, SMP/MTs, dan SMA/MA.</li><li>Kurikulum Satuan Pendidikan SMP Negeri 14 Malang TP 2026/2027.</li></ol></div></details>
+</section>
+
+<section class="wrap" id="anggaran">
+  <div class="eyebrow">Rencana anggaran biaya</div><h2>Transparan sampai kode barang</h2>
+  <p class="sub">Harga satuan mengacu pada SSH Kota Malang 2026. Upah pemasangan belum tersedia dalam SSH, SBU, maupun ASB, sehingga diisi sekolah dari penawaran pelaksana.</p>
+  <div class="grid g2" style="align-items:start">
+    <div>
+      <div class="seg" id="rseg" style="margin-bottom:14px"></div>
+      <div class="list" id="ritems"></div>
+      <div class="card" style="margin-top:14px"><h3>Komposisi biaya bahan</h3><div class="share" id="share"></div><div class="legend" id="legend"></div></div>
+    </div>
+    <div class="total reveal">
+      <small>Biaya bahan</small><div class="big">Rp 191.772.050</div>
+      <div style="opacity:.85;font-size:14px">Atap Rp 188.034.000 · Jalur air A Rp 2.299.900 · Jalur air B Rp 1.438.150</div>
+      <hr style="border:0;border-top:1px solid rgba(255,255,255,.25);margin:20px 0">
+      <small>Simulasi total kebutuhan</small><div class="big" id="grand">Rp 191.772.050</div>
+      <label for="upah" style="font-size:14px;opacity:.9">Masukkan upah pemasangan dan pengawasan</label>
+      <div class="inp"><span>Rp</span><input id="upah" inputmode="numeric" placeholder="0" autocomplete="off"></div>
+      <div class="chipbtn"><button data-p="0">Reset</button><button data-p="10">10% bahan</button><button data-p="15">15% bahan</button><button data-p="20">20% bahan</button></div>
+      <p style="font-size:12.5px;opacity:.75;margin-top:14px">Alat bantu hitung saja. Nilai upah resmi mengikuti penawaran pelaksana.</p>
+      <button class="btn g" id="copy" style="margin-top:14px;box-shadow:none">Salin ringkasan</button>
+    </div>
+  </div>
+  <details style="margin-top:18px"><summary>Dasar perhitungan volume (estimasi, disesuaikan setelah survei)</summary><div><ul style="padding-left:18px;display:grid;gap:6px">
+   <li>Atap: luas denah lima ruang 77,00 + 24,50 + 66,00 + 68,00 + 69,75 = 305,25 m². Luas bidang atap sebenarnya lebih besar karena kemiringan dan teritisan.</li><li>Rangka baja ringan: 6 kg per m², termasuk kuda-kuda dan reng.</li><li>Talang: sisi terpanjang tiap ruang, yaitu 30 m (kelompok A) dan 17,5 m (kelompok B). Sambungan talang 1 buah per 3 m.</li><li>Pipa tegak: 1 titik per ruang, tinggi 4 m, dengan 1 tee PVC per titik.</li><li>ASB rehabilitasi sedang (Rp 2.000.000 per m²) tidak dipakai karena mencakup rehabilitasi menyeluruh.</li></ul></div></details>
+</section>
+
+<section class="wrap" id="jadwal">
+  <div class="eyebrow">Jadwal estimasi</div><h2>Delapan minggu sampai serah terima</h2>
+  <p class="sub">Pekerjaan atap dikerjakan di luar jam belajar agar kegiatan sekolah tidak terganggu.</p>
+  <div class="tl" id="tl"><div class="fill" id="fill"></div>
+    <div class="step"><small>Minggu 1</small><h4>Persiapan</h4><p>Survei teknis akhir, penetapan volume, dan pemilihan pelaksana.</p></div>
+    <div class="step"><small>Minggu 1-2</small><h4>Pengadaan</h4><p>Pembelian bahan atap dan perlengkapan jalur air.</p></div>
+    <div class="step"><small>Minggu 2-6</small><h4>Pekerjaan atap</h4><p>Pembongkaran atap lama dan pemasangan atap baru, di luar jam belajar.</p></div>
+    <div class="step"><small>Minggu 6-8</small><h4>Jalur air</h4><p>Pemasangan jalur air kelompok A dan kelompok B.</p></div>
+    <div class="step"><small>Minggu 8</small><h4>Serah terima</h4><p>Pemeriksaan hasil, dokumentasi, dan laporan kepada BRI.</p></div>
+  </div>
+  <div class="grid g2" style="margin-top:28px">
+    <div class="card reveal"><h3 style="margin-bottom:12px">Indikator keberhasilan</h3><ul class="tick"><li>Atap pengganti terpasang pada lima ruang (305,25 m²).</li><li>Dua jalur air hujan independen berfungsi.</li><li>Tidak ada lagi lubang atap dan cahaya luar tembus.</li><li>Laporan akhir dengan foto sebelum dan sesudah serta realisasi anggaran.</li></ul></div>
+    <div class="card reveal"><h3 style="margin-bottom:12px">Manfaat bagi BRI</h3><ul class="tick"><li>Program CSR konkret, terlihat, dan mudah dipantau.</li><li>Plakat kemitraan serta publikasi di website dan media sosial sekolah.</li><li>Karyawan BRI dapat meninjau lokasi dan hadir pada serah terima.</li><li>Kontribusi langsung pada keselamatan siswa dan guru di Kecamatan Blimbing.</li></ul></div>
+  </div>
+  <div class="card reveal" style="margin-top:14px;text-align:center;padding:36px 24px">
+    <h2 style="font-size:30px">Mari wujudkan ruang belajar yang aman</h2>
+    <p style="max-width:560px;margin:0 auto 20px">Dana disalurkan melalui rekening resmi atas nama SMP Negeri 14 Malang, atau berupa pengadaan langsung oleh BRI. Penggunaan dana dilaporkan secara terbuka.</p>
+    <div class="cta" style="justify-content:center;margin:0"><a class="btn" href="tel:0341474458">Hubungi sekolah</a><a class="btn g" href="mailto:smpn14_malang@yahoo.co.id">Kirim email</a></div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap">Proposal CSR Pemeliharaan Bangunan Kelas · SMP Negeri 14 Malang · Tahun 2026<br>Jl. Teluk Bayur No. 2, Malang 65124</footer>
+
+<nav class="tabs" id="tabs" aria-label="Navigasi bagian">
+ <a href="#beranda" class="on"><svg class="i"><use href="#home"/></svg>Beranda</a>
+ <a href="#kondisi"><svg class="i"><use href="#cam"/></svg>Kondisi</a>
+ <a href="#program"><svg class="i"><use href="#tool"/></svg>Program</a>
+ <a href="#anggaran"><svg class="i"><use href="#rp"/></svg>Anggaran</a>
+ <a href="#jadwal"><svg class="i"><use href="#cal"/></svg>Jadwal</a>
+</nav>
+
+<div id="lb" role="dialog" aria-modal="true" aria-label="Pratinjau foto"><img alt=""><p></p>
+ <div class="ctl"><button class="rb" id="lp" aria-label="Sebelumnya"><svg class="i"><use href="#l"/></svg></button><button class="rb" id="lx" aria-label="Tutup"><svg class="i"><use href="#x"/></svg></button><button class="rb" id="ln" aria-label="Berikutnya"><svg class="i"><use href="#r"/></svg></button></div></div>
+
+<dialog id="sheet"><div class="sheet"><div class="grab"></div>
+ <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:.06em;color:var(--blue)">SURAT PERMOHONAN</p>
+ <h3>Permohonan CSR Bantuan Pemeliharaan Bangunan Kelas</h3>
+ <p style="color:var(--label2)">Malang, <span class="ph-h">[tanggal]</span> Oktober 2026 · Nomor <span class="ph-h">[nomor surat]</span> · Lampiran 1 berkas</p>
+ <p><b>Yth. Kepala BRI Kota Malang Cabang Kawi</b><br>melalui Kepala Dinas Pendidikan dan Kebudayaan Kota Malang, Jl. Veteran No. 19, Malang</p>
+ <p>Dengan hormat,</p>
+ <p>Sehubungan dengan program Tanggung Jawab Sosial dan Lingkungan (CSR) Bank Republik Indonesia (BRI) Kota Malang, kami mengajukan permohonan bantuan pemeliharaan bangunan kelas di SMP Negeri 14 Malang, berupa penggantian atap serta pembuatan jalur air hujan dari genteng ke bawah yang independen untuk Kelas 8.2, Ruang Pramuka, Kelas 8.3, Kelas 8.7, dan Kelas 8.8.</p>
+ <p>Berdasarkan pemeriksaan kondisi pada 13 Oktober 2026, plafon kelas-kelas tersebut berlubang dan rangka atap terlihat dari dalam ruangan. Kondisi ini berisiko bagi keselamatan dan kenyamanan siswa yang belajar setiap hari. Rincian kondisi, kebutuhan, dan rencana anggaran biaya kami uraikan dalam proposal terlampir.</p>
+ <p>Sebagai bahan pertimbangan, bersama ini kami sertakan data pendukung dan foto kondisi existing. Atas perhatian dan dukungan Bapak/Ibu, kami mengucapkan terima kasih.</p>
+ <p style="margin-top:18px"><b>Rachmat Suliadi</b><br>Kepala SMP Negeri 14 Malang · NIP 197111131997021001<br><span style="color:var(--label2)">Mengetahui: Ketua Komite Sekolah <span class="ph-h">[Nama Ketua Komite]</span></span></p>
+ <button class="btn" style="width:100%;justify-content:center;margin-top:18px" id="sx">Selesai</button></div></dialog>
+
+<script>
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const rp=n=>'Rp '+Math.round(n).toLocaleString('id-ID');
+const ROOMS=[
+{n:'Kelas 8.2',g:'A',u:'11 × 7 m',l:'77,00 m²',s:'Plafon berlubang, rangka atap dan pasangan bata terlihat dari dalam ruangan.',p:[['k82-kelas','Plafon berlubang di dalam kelas'],['k82-atap','Rangka atap dan pasangan bata terlihat dari lubang plafon']]},
+{n:'Ruang Pramuka',g:'A',u:'7 × 3,5 m',l:'24,50 m²',s:'Plafon berlubang lebar, rangka kayu dan pasangan bata terlihat.',p:[['pramuka-2','Plafon berlubang, rangka kayu dan pasangan bata terlihat']]},
+{n:'Kelas 8.3',g:'A',u:'12 × 5,5 m',l:'66,00 m²',s:'Plafon berlubang dan bernoda saat siswa belajar.',p:[['k83-kelas','Plafon berlubang dan bernoda saat siswa belajar'],['k83-lubang','Lubang pada plafon dilihat dari sisi lain ruang']]},
+{n:'Kelas 8.7',g:'B',u:'8 × 8,5 m',l:'68,00 m²',s:'Plafon jebol di beberapa titik, rangka atap kayu terlihat, cahaya luar tembus celah atap.',p:[['k87-1','Plafon jebol di beberapa titik'],['k87-2','Rangka atap kayu dan cahaya luar tembus celah atap'],['k87-3','Lubang pada plafon di dekat jendela']]},
+{n:'Kelas 8.8',g:'B',u:'9 × 7,75 m',l:'69,75 m²',s:'Celah pada plafon di sudut dinding dan plafon bernoda.',p:[['k88-1','Plafon dengan bekas noda pada sisi atas dinding'],['k88-2','Celah pada plafon di sudut dinding'],['k88-3','Celah pada plafon di sisi jendela']]}];
+const RAB=[
+{k:'Penggantian atap',c:'#007AFF',sub:188034000,sc:'5 ruang · 305,25 m² luas denah',i:[['1.1.12.01.01.0001.17122','Atap Seng Galvalum','305,25 M2 × 225.100',68711775],['1.1.12.01.01.0001.17125','Baja Ringan (6 kg/m² × 305,25 m²)','1.831,5 Kg × 65.150',119322225]]},
+{k:'Jalur air A',c:'#30B0C7',sub:2299900,sc:'Kelas 8.2, Ruang Pramuka, Kelas 8.3',i:[['…17385','Seng Talang BJLS 30 × 60 cm','30 m × 35.100',1053000],['…17361','Sambungan Talang','10 buah × 11.050',110500],['…17346','Pipa PVC AW 2,5 inci (3 titik × 4 m)','12 m × 82.200',986400],['…17402','Tee PVC 2,5 inci','3 buah × 50.000',150000]]},
+{k:'Jalur air B',c:'#FF9500',sub:1438150,sc:'Kelas 8.7, Kelas 8.8',i:[['…17385','Seng Talang BJLS 30 × 60 cm','17,5 m × 35.100',614250],['…17361','Sambungan Talang','6 buah × 11.050',66300],['…17346','Pipa PVC AW 2,5 inci (2 titik × 4 m)','8 m × 82.200',657600],['…17402','Tee PVC 2,5 inci','2 buah × 50.000',100000]]}];
+const BAHAN=191772050;
+// reveal + counters + bars
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+$$('.reveal').forEach(e=>io.observe(e));
+const cio=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;cio.unobserve(e.target);const el=e.target,t=+el.dataset.n,d=+(el.dataset.d||0),t0=performance.now();
+ const f=x=>{const p=Math.min(1,(x-t0)/1100),v=t*(1-Math.pow(1-p,3));el.textContent=v.toLocaleString('id-ID',{minimumFractionDigits:d,maximumFractionDigits:d});if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f)}),{threshold:.6});
+$$('[data-n]').forEach(e=>cio.observe(e));
+const bars=[['Kelas 7',254,8],['Kelas 8',276,9],['Kelas 9',285,9]];
+$('#bars').innerHTML=bars.map(b=>`<div class="bar"><span>${b[0]}</span><div class="t"><i data-w="${b[1]/285*100}"></i></div><em>${b[1]} · ${b[2]} rombel</em></div>`).join('')+`<div class="bar" style="border-top:.5px solid var(--sep);margin-top:6px"><b>Jumlah</b><span></span><em><b style="color:var(--label)">815 · 26 rombel</b></em></div>`;
+new IntersectionObserver((es,o)=>es.forEach(e=>{if(e.isIntersecting){$$('i[data-w]',e.target).forEach(i=>i.style.width=i.dataset.w+'%');o.disconnect()}})).observe($('#bars'));
+// rooms
+let cur=0,lbList=[],lbi=0;
+$('#seg').innerHTML=ROOMS.map((r,i)=>`<button role="tab" aria-selected="${i==0}" data-i="${i}">${r.n}</button>`).join('');
+function room(i){cur=i;const r=ROOMS[i];$$('#seg button').forEach((b,j)=>b.setAttribute('aria-selected',j==i));
+ $('#room').innerHTML=`<div class="rhead"><div><h3>${r.n}</h3><p>${r.s}</p></div><div class="chips"><div class="chip">Ukuran<b>${r.u}</b></div><div class="chip">Luas denah<b>${r.l}</b></div><div class="chip ${r.g=='A'?'a':'b'}">Jalur air<b>Kelompok ${r.g}</b></div></div></div>
+ <div class="photos">${r.p.map((p,j)=>`<button class="ph" data-j="${j}" aria-label="Perbesar: ${p[1]}"><img src="assets/${p[0]}.jpg" alt="${p[1]}" loading="lazy"><span>${p[1]}</span></button>`).join('')}</div>
+ <div class="hint"><svg class="i" style="width:16px;height:16px"><use href="#cam"/></svg>${r.p.length} foto · ketuk untuk memperbesar${r.p.length>1?', geser untuk foto lain':''}</div>`}
+$('#seg').onclick=e=>{const b=e.target.closest('button');if(b)room(+b.dataset.i)};
+$('#room').onclick=e=>{const b=e.target.closest('.ph');if(b)openLb(+b.dataset.j)};
+room(0);
+// lightbox
+const lb=$('#lb');
+function showLb(){const p=ROOMS[cur].p[lbi];$('img',lb).src='assets/'+p[0]+'.jpg';$('img',lb).alt=p[1];$('p',lb).textContent=ROOMS[cur].n+' · '+p[1];$('#lp').style.visibility=$('#ln').style.visibility=ROOMS[cur].p.length>1?'visible':'hidden'}
+function openLb(j){lbi=j;showLb();lb.classList.add('on');document.body.style.overflow='hidden'}
+function closeLb(){lb.classList.remove('on');document.body.style.overflow=''}
+const step=d=>{const n=ROOMS[cur].p.length;lbi=(lbi+d+n)%n;showLb()};
+$('#lx').onclick=closeLb;$('#lp').onclick=()=>step(-1);$('#ln').onclick=()=>step(1);lb.onclick=e=>{if(e.target===lb)closeLb()};
+addEventListener('keydown',e=>{if(!lb.classList.contains('on'))return;if(e.key=='Escape')closeLb();if(e.key=='ArrowLeft')step(-1);if(e.key=='ArrowRight')step(1)});
+let tx=0;lb.addEventListener('touchstart',e=>tx=e.touches[0].clientX,{passive:true});lb.addEventListener('touchend',e=>{const d=e.changedTouches[0].clientX-tx;if(Math.abs(d)>50)step(d>0?-1:1)});
+// RAB
+$('#rseg').innerHTML=RAB.map((r,i)=>`<button role="tab" aria-selected="${i==0}" data-i="${i}">${r.k}</button>`).join('');
+function rab(i){$$('#rseg button').forEach((b,j)=>b.setAttribute('aria-selected',j==i));const r=RAB[i];
+ $('#ritems').innerHTML=`<div class="item" style="background:#F9FAFC"><b>${r.k}</b><span class="n" style="color:${r.c}">${rp(r.sub)}</span><small>${r.sc}</small></div>`+r.i.map(x=>`<div class="item"><b>${x[1]}</b><span class="n">${rp(x[3])}</span><small>${x[0]} · ${x[2]}</small></div>`).join('')}
+$('#rseg').onclick=e=>{const b=e.target.closest('button');if(b)rab(+b.dataset.i)};rab(0);
+$('#share').innerHTML=RAB.map(r=>`<i style="width:${r.sub/BAHAN*100}%;background:${r.c};min-width:6px"></i>`).join('');
+$('#legend').innerHTML=RAB.map(r=>`<span><i style="background:${r.c}"></i>${r.k} ${(r.sub/BAHAN*100).toFixed(1).replace('.',',')}%</span>`).join('');
+const up=$('#upah');const val=()=>+(up.value.replace(/\D/g,'')||0);
+function calc(){const v=val();up.value=v?v.toLocaleString('id-ID'):'';$('#grand').textContent=rp(BAHAN+v)}
+up.oninput=calc;$$('.chipbtn button').forEach(b=>b.onclick=()=>{up.value=Math.round(BAHAN*b.dataset.p/100);calc()});
+$('#copy').onclick=async e=>{const t=`Proposal CSR SMP Negeri 14 Malang\nBiaya bahan: ${rp(BAHAN)}\nUpah (simulasi): ${rp(val())}\nTotal kebutuhan: ${rp(BAHAN+val())}`;try{await navigator.clipboard.writeText(t);e.target.textContent='Tersalin ✓'}catch{e.target.textContent='Gagal menyalin'}setTimeout(()=>e.target.textContent='Salin ringkasan',1800)};
+// sheet
+const sh=$('#sheet');$$('[data-sheet]').forEach(b=>b.onclick=()=>sh.showModal());$('#sx').onclick=()=>sh.close();sh.onclick=e=>{if(!e.target.closest('.sheet'))sh.close()};
+// scroll: nav, tabs spy, timeline
+const tabs=$$('#tabs a'),secs=['beranda','kondisi','program','anggaran','jadwal'].map(id=>document.getElementById(id));
+function onS(){$('#nav').classList.toggle('on',scrollY>240);let a=0;secs.forEach((s,i)=>{if(s.getBoundingClientRect().top<innerHeight*.4)a=i});tabs.forEach((t,i)=>t.classList.toggle('on',i==a));
+ const tl=$('#tl'),r=tl.getBoundingClientRect(),p=Math.max(0,Math.min(1,(innerHeight*.6-r.top)/r.height));$('#fill').style.height=`calc((100% - 28px)*${p})`;
+ $$('.step').forEach(s=>s.classList.toggle('on',s.getBoundingClientRect().top<innerHeight*.62))}
+addEventListener('scroll',onS,{passive:true});onS();
+</script>
+</body></html>
